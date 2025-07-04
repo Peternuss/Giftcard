@@ -108,8 +108,7 @@
     </style>
   </head>
   <body>
-    <div class="card">
-      <h1>test</h1>
+    <div id="card" class="card">
       <h1>Alles Gute zum Geburtstag mein Bruder! 🎉</h1>
       <p>
         Ich wünsche dir einen wundervollen Tag voller Freude und Überraschungen!
@@ -133,6 +132,7 @@
       function zeigeÜberraschung() {
         const surprise = document.getElementById("surprise");
         surprise.style.display = "block";
+        startConfetti();
       }
 
       function startConfetti() {
